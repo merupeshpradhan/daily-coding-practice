@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
+        <form onsubmit="detials()" style=" display: flex; flex-direction: column; align-items: center; gap: 15px;">
+            <input type="text" id="name" placeholder="Enter Your name" style="padding: 5px;" />
+            <input type="text" id="age" placeholder="Enter Your age" style="padding: 5px;" />
+            <input type="text" id="villageName" placeholder="Enter Your village name" style="padding: 5px;" />
+            <button type="submit" style="padding: 2px;">Submit</button>
+        </form>
+
+        <button type="submit" onclick="insidePromptTakeInput()" style="padding: 5px;">Take input and see result</button>
+    </div>
+</body>
+
+</html>
